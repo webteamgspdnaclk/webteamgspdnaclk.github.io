@@ -61,7 +61,34 @@
     justify-items: left;
 }
 
+.icons a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(34, 96, 146)
+}
+
+.icons a:hover {
+    color: red;
+}
+
 .icon-wrapper {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.request {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.request-box {
+    border-collapse: collapse;
+    background-color: rgb(158, 30, 30);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
